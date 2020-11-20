@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0"
+        name="viewport">
+    <meta charset="utf-8">
+    <link href="css/fullpage.min.css" media="all" rel="stylesheet">
+    <link href="css/style.css" media="all" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Trang chủ</title>
+</head>
+<body class="fullpage-ns">
+    
+    <!--<div class="loading-layer">
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>-->
+    <section class="section section-mainmenu">
+        <div class="container">
+
+        </div>
+    </section>
+    <div class="fixed-nav">
+        <ul id="menu" class="menu-anchor width_common">
+            <li data-menuanchor="firstPage" class=""><a href="#firstPage"></a></li>
+            <li data-menuanchor="secondPage" class=""><a href="#secondPage">Âm nhạc</a></li>
+            <li data-menuanchor="3rdPage" class=""><a href="#3rdPage">Phim ảnh</a></li>
+            <li data-menuanchor="4rdPage" class=""><a href="#4rdPage">Mỹ nhân</a></li>
+            <li data-menuanchor="5rdPage" class=""><a href="#5rdPage">Truyền cảm hứng</a></li>
+            <li data-menuanchor="6rdPage" class=""><a href="#6rdPage">Cống hiến</a></li>
+            <li data-menuanchor="7rdPage" class=""><a href="#7rdPage"></a></li>
+        </ul>
+    </div>
+    
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="container">
+                <div class="width_common banner-ad">
+                    <a href="#"><img src="images/graphics/banner-ads.jpg" alt=""></a>
+                </div>
+                <div class="width_common menu-main flexbox">
+                    <a href="#" class="logo"><img src="images/graphics/logo.svg" alt=""></a>
+                    <ul class="list-menu">
+                        <li class="active"><a href="#">Thể lệ</a></li>
+                        <li><a href="#">Hạng mục đề cử</a></li>
+                        <li><a href="#">Hội đồng chuyên môn</a></li>
+                        <li><a href="#">Thử thách ngôi sao</a></li>
+                        <li><a href="#">Sứ giả sẻ chia</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                    <a href="#" class="login">Đăng nhập</a>
+                </div>
+                <div class="width_common ctn-sectop flexbox">
+                    <img src="images/graphics/hac.svg" class="img-hac" alt="">
+                    <div class="box-text-top flexbox">
+                        <img src="images/graphics/text-sharing-top.svg" alt="">
+                        <a href="#" class="btn-votenow">Bình chọn ngay</a>
+                    </div>
+                </div>
+            </div>
+            <a class="back-ns-ver" href="#"></a>
+            <div class="social-share-bottom">
+                <a href="#">
+                    <svg class="ic ic-facebook">
+                        <use xlink:href="images/graphics/icon-vne.svg#Facebook"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="ic ic-twitter">
+                        <use xlink:href="images/graphics/icon-vne.svg#Twitter"></use>
+                    </svg>
+                </a>
+            </div>
+            <span class="scroll-mouse-ic"></span>
+        </div>
+        <div class="section" id="section1">
+            <div class="container">
+                
+            </div>
+
+        </div>
+        <div class="section" id="section2">
+            <div class="container">
+                
+            </div>
+
+        </div>
+        <div class="section" id="section3">
+            <div class="container">
+                
+            </div>
+
+        </div>
+        <div class="section" id="section4">
+            <div class="container">
+                
+            </div>
+
+        </div>
+        <div class="section" id="section5">
+            <div class="container">
+                
+            </div>
+
+        </div>
+        <div class="section" id="section6">
+            <div class="container">
+                
+            </div>
+
+        </div>
+    </div>
+   
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.min.js"></script>  
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            //sectionsColor: ['#0A0A0A', '#0A0A0A', '#0A0A0A', '#0A0A0A', '#0A0A0A', '#0A0A0A', '#0A0A0A'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage', '6rdPage', '7rdPage'],
+            scrollOverflow: true,
+            normalScrollElements: '.menu-anchor',
+            menu: '#menu'
+        });
+    </script>   
+</body>
+</html>
